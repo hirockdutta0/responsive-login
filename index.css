@@ -1,0 +1,234 @@
+
+.all{
+}
+
+@media(max-width:999px){
+  .all{
+    display: inline-block;
+  }
+}
+
+.whole-div{
+  display: ;
+  flex-direction: row;
+  
+}
+
+.body-section{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  column-gap: 100px;
+  background-color: rgb(235, 238, 243);
+  height: 750px;
+}
+
+@media(max-width:750px){
+  .body-section{
+    grid-template-columns: 1fr 1fr;
+    display: block;
+
+  }
+}
+@media (min-width:751px) and (max-width:999px){
+  .body-section{
+    grid-template-columns: 1fr 1fr;
+
+  }
+}
+@media(min-width:1000px){
+  .body-section{
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+
+.fb-left{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin: auto;
+  margin-right: 0;
+}
+.fb-logo{
+height: 60px;
+}
+.fb-logo-text1{
+  font-family: roboto,arial;
+  font-size: 
+  30px;
+  margin-top: 0;
+  opacity: 80%;
+}
+@media(max-width:1075px){
+  .fb-logo-text1{
+    font-size: 25px;
+  }
+}
+.login-palate{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 350px;
+  width: 400px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgb(173, 170, 170) 1px 1px 10px;
+  align-items: center;
+  margin-left: 0;
+  display: inline-block;
+  justify-content: center;
+  
+  
+}
+.email-passwod-input{
+  background-color: white;
+width: 350px;
+height: 45px;
+border-radius: 8px;
+border: 1px;
+border-style: solid;
+border-color: rgb(194, 189, 189);
+}
+.email-passwod-input:first-of-type{
+padding-left: 15px;
+font-size: 17px;
+font-family: roboto,arial;
+opacity: 70%;
+}
+.login-button{
+width: 365px;
+height: 50px;
+border-radius: 8px;
+margin-top: 15px;
+background-color: rgb(15, 135, 209);
+color: white;
+font-size: 20px;
+font-weight: 700;
+font-family: roboto,arial;
+border: 0;
+cursor: pointer;
+}
+.emailpass{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+.log-forgot{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.forget-password-div{
+  margin-top: 15px;
+  align-items: center;
+}
+.create-button{
+height: 50px;
+width: 220px;
+align-self: center;
+border-radius: 8px;
+border: 0;
+background-color: rgb(30, 185, 30);
+color: white;
+font-family: roboto,arial;
+font-size: 17px;
+font-weight: 700;
+cursor: pointer;
+  
+}
+.create-button:hover{
+  background-color: rgb(38, 156, 15);
+}
+.create-button-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.forgotten-text{
+ font-family: roboto,arial;
+ color: rgb(15, 135, 209);
+ font-size: 15px;
+ text-decoration: none;
+}
+.divider{
+  width: 350px;
+  height: 1px;
+  background-color: rgb(240, 235, 235);
+  display: inline-block;
+ margin: 20px;
+ border-width: 4px;
+}
+
+
+.bottom{
+  display: grid;
+  justify-content: center;
+  padding-top: 20px;
+}
+@media(max-width:1200px){
+  .bottom{
+    display: block;
+    justify-content:center;
+}
+}
+.first-bottom-1{
+  
+
+}
+.first-bottom-1-inside-1{
+
+}
+.first-bottom-1-inside-2{
+
+}
+.bottom1-text{
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: black;
+  opacity: 50%;
+  font-family: roboto,arial;
+}
+
+
+.divider2{
+  display: flex;
+  justify-content: center;
+  height: 1px;
+  border-radius: 8px;
+  background-color: rgb(216, 208, 208);
+  margin: 5px;
+}
+.second-bottom-2{
+
+}
+@media(max-width: 600px){
+  .second-bottom-2{
+display: none;
+}
+}
+.second-bottom-2-inside-1{
+
+}
+.second-bottom-2-inside-2{
+
+}
+.second-bottom-2-inside-3{
+
+}
+.second-bottom-2-inside-4{
+padding-top: 20px;
+}
+.final-bottom-text{
+  font-size: 13px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  opacity: 50%;
+  font-family: roboto,arial;
+}
